@@ -68,8 +68,16 @@ if(physics >= 40 && chemistry >= 40 && maths >= 40 && english >= 40 && hindi >=4
         result = "Invalid Result";
     }
 
-    cout<<"ID\tNAME\tPHYSICS\tCHEMSITRY\tMATHS\tENGLISH\tHINDI\tTOTAL\tPERCENTAGE\tRESULT"<<endl;
-    cout<<id<<"\t"<<name<<"\t"<<physics<<"\t"<<chemistry<<"\t"<<maths<<"\t"<<english<<"\t"<<hindi<<"\t"<<total<<"\t"<<percentage<<endl;
+    cout<<"Student ID -----------------: "<<id<<endl;
+    cout<<"Student NAME ---------------: "<<name<<endl;
+    cout<<"Physics --------------------: "<<physics<<endl;
+    cout<<"Chemistry ------------------: "<<chemistry<<endl;
+    cout<<"Maths ----------------------: "<<maths<<endl;
+    cout<<"English --------------------: "<<english<<endl;
+    cout<<"Hindi ----------------------: "<<hindi<<endl;
+    cout<<"Total ----------------------: "<<total<<endl;
+    cout<<"Percentage -----------------: "<<percentage<<endl;
+    cout<<"Result ---------------------: "<<result<<endl;
 }
 else{
     cout << "Result: Fail (Student failed in one or more subjects)" << endl;
