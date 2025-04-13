@@ -1,3 +1,19 @@
+/*
+This program checks the type of triangle based on the lengths of its three sides.
+
+Steps:
+1. It takes three integer inputs: side1, side2, and side3.
+2. First, it checks whether the given sides can form a valid triangle
+   using the triangle inequality theorem:
+   - sum of any two sides must be greater than the third side.
+3. If valid, it checks the type of triangle:
+   - If all three sides are equal → Equilateral Triangle
+   - If any two sides are equal → Isosceles Triangle
+   - If all sides are different → Scalene Triangle
+4. If not valid, it prints that the sides do not form a triangle.
+*/
+
+
 #include<iostream>
 using namespace std;
 
