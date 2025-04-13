@@ -1,3 +1,18 @@
+/*
+    Result classification is based on the percentage:
+
+    - If percentage >= 75 and <= 100 : Result is "Excellent"
+    - If percentage >= 60 and < 75   : Result is "First class"
+    - If percentage >= 40 and < 60   : Result is "Pass"
+    - If percentage >= 0 and < 40    : Result is "Fail"
+
+    Note:
+    - Student must score at least 40 marks in **each subject** to be considered as passed.
+    - If any subject has marks < 40, the student is considered "Fail" regardless of percentage.
+    - Marks must be between 0 and 100 for each subject; otherwise input is considered invalid.
+*/
+
+
 #include<iostream>
 #include<string>
 using namespace std;
